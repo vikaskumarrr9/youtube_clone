@@ -1,0 +1,25 @@
+.sidebar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    bottom : 0px;
+    align-items: center;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+}
+.home{
+    font-size: 10px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 300;
+}

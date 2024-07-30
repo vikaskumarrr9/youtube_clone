@@ -1,0 +1,37 @@
+p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+    }
+
+    .thumbnail {
+      width: 100%;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .grid-video-info {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      column-gap: 10px;
+    }
+
+    .channel-profile {
+      width: 50px;
+      border-radius: 25px;
+    }
+
+    .video-title {
+      font-weight: bold;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .grid-template {
+      padding-top: 25px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 40px;
+    }
